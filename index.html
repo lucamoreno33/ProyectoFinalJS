@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.2/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>libreriaOnline - preentrega 3</title>
+</head>
+<body>
+    <header class="mb-3">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary colorNav">
+            <div class="container-fluid">
+                <h1>libreriaOnline</h1>
+            </div>
+        </nav>
+    </header>
+    <main class="container">  
+        <div class="row">
+            <div class="col-3 border-1 casillero"><h3>libro</h3></div>
+            <div class="col-3 border-1 casillero"><h3>precio</h3></div>
+            <div class="col-3 border-1 casillero"><h3>cantidad</h3></div>
+            <div class="col-3 border-1 casillero"></div>
+        </div>
+
+        <div id="carro"></div>
+        <div class="row">
+            <div class="col-2 border-1 casillero"><h3>total:</h3></div>
+            <div class="col-10 border-1 casillero" id="sumaTotal"><h3>$</h3></div>
+        </div>
+        <button class="btn btn-success botonCompra" id="botonCompra">comprar</button>
+
+        <div class="d-flex justify-content-around margerArriba">
+            <div>
+                <label for="todos" ><h2>todos</h2></label>
+                <input type="radio" id="todos" name="filtro" value="">
+            </div>
+
+            <div>
+                <label for="mangas" ><h2>mangas</h2></label>
+                <input type="radio" id="manga" name="filtro" value="manga">
+            </div>
+
+            <div>
+                <label for="comics" id="comic"><h2>comics</h2></label>
+                <input type="radio" id="comic" name="filtro" value="comic">
+            </div>
+
+            <div>
+                <label for="libro" id="libro"><h2>libros</h2></label>
+                <input type="radio" id="libro" name="filtro" value="libro">
+            </div>    
+        </div>
+        
+        <div id="libreria" class="row row-cols-1 row-cols-md-3 g-3 "></div>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.2/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

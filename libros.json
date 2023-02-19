@@ -1,0 +1,14 @@
+[
+{"nombre": "dragon ball", "tipo": "manga", "precio": 900,"imagen":"./img/dragonBall.jpg", "id": 1},
+{"nombre": "vinland Saga", "tipo": "manga", "precio": 1300, "imagen":"./img/vinlandSaga.jpg", "id": 2},
+{"nombre": "chainsaw man", "tipo": "manga", "precio": 900, "imagen":"./img/chainsawMan.jpg", "id": 3},
+{"nombre": "evangelion", "tipo": "manga", "precio": 900, "imagen":"./img/evangelion.jpg", "id": 4},
+{"nombre": "berserk", "tipo": "manga", "precio": 1300, "imagen":"./img/berserk.jpg" , "id": 5},
+{"nombre": "civil war", "tipo": "comic", "precio": 3200, "imagen":"./img/civilWar.jpg", "id": 6},
+{"nombre": "watchmen", "tipo": "comic", "precio": 5500, "imagen": "./img/watchmen.png", "id": 7},
+{"nombre": "the killing joke", "tipo": "comic", "precio": 2800, "imagen":"./img/killingJoke.jpg", "id": 8},
+{"nombre": "sandman", "tipo": "comic", "precio": 6300, "imagen":"./img/sandman.jpeg", "id": 9},
+{"nombre": "it", "tipo": "libro", "precio": 4200, "imagen": "./img/it.jpg", "id": 10},
+{"nombre": "cancion de hielo y fuego", "tipo": "libro", "precio": 4600, "imagen":"./img/cancionDeHieloYfuego.jpg", "id": 11},
+{"nombre": "el resplandor", "tipo": "libro", "precio": 3800, "imagen":"./img/elResplandor.jpg", "id": 12}
+]

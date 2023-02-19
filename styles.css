@@ -1,0 +1,35 @@
+.colorNav{
+    background-color: darkgray;
+}
+
+.card {
+    margin: auto auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0;
+    background-color: white;
+    width: 80%;
+    height: 100%;
+}
+.card-imagen {
+    height: 200px;
+    width: auto;
+}
+
+.filtro{
+    background-color: white;
+}
+
+.casillero{
+    border: 1px solid black;
+}
+
+.margerArriba{
+    margin-top: 20%;
+}
+
+.botonCompra{
+    height: 50px;
+    width: 150px;
+
+}
